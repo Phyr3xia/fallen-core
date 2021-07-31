@@ -27,7 +27,7 @@ abstract class GenericAdapter<I : ListItem> : RecyclerView.Adapter<GenericAdapte
    }
 
    open class SimpleDiffCallback<I : ListItem> : ItemCallback<I>() {
-ƒ
+
       override fun areItemsTheSame(oldItem: I, newItem: I): Boolean {
          return oldItem.id == newItem.id
       }

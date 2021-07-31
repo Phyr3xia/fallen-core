@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <style name="Widget.App.MaterialDatePicker" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+      <item name="materialCalendarHeaderToggleButton">
+         @style/Widget.App.MaterialCalendar.HeaderToggleButton
+      </item>
+   </style>
+
+   <style name="Widget.App.MaterialCalendar.HeaderToggleButton" parent="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+      <item name="android:visibility">gone</item>
+   </style>
+
+</resources>
